@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.peticionContainer{
+    margin-top: 30px;
+    height: 30vh;
+    width: 95vw;
+}
+
+.responseContainer{
+    height: 60vh;
+    width: 95vw;
+}
+
+.particles {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+ }
